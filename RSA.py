@@ -37,7 +37,7 @@ def generate_rsa_keys_with_hamming_weight(key_size=2048, target_hamming_weight=N
 
 def generate_rsa_keys(key_size=2048):
     """
-    Generates RSA keys with a private key 'd' having approximately the desired Hamming weight.
+    Generates RSA keys
 
     Parameters:
     - key_size: Size of the RSA modulus in bits.
